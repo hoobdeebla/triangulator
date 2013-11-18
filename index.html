@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Triangulator</title>
+    <link rel="stylesheet" href="css/toggle-switch.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/kinetic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/main.js" defer="defer"></script>
+    <script src="js/loop.js"></script>
+    <script src="js/listeners.js"></script>
+  </head>
+
+  <body>
+    <div id="sidebar">
+      <h3>Circumcenter:</h3>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="ccp">
+        <span>
+          Point
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="ccl">
+        <span>
+          Lines
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="ccc">
+        <span>
+          Circle
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+
+      <h3>Incenter:</h3>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="icp">
+        <span>
+          Point
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="icl">
+        <span>
+          Lines
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="icc">
+        <span>
+          Circle
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+
+      <h3>Centroid:</h3>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="ctp">
+        <span>
+          Point
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <label class="switch-light switch-android">
+        <input type="checkbox" checked id="ctl">
+        <span>
+          Lines
+          <span>Off</span><span>On</span>
+        </span>
+        <a></a>
+      </label>
+      <h3>Angles</h3>
+      <div class="switch-toggle switch-3 switch-android">
+        <input id="aoff" name="view6" type="radio">
+        <label for="aoff">Off</label>
+        <input id="adeg" name="view6" type="radio" checked>
+        <label for="adeg">Degrees</label>
+        <input id="arad" name="view6" type="radio">
+        <label for="arad">Radians</label>
+        <a></a>
+      </div>
+    </div>
+    <div id="container"></div>
+
+  </body>
+</html>

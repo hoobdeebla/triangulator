@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  border: 0;
+  background: url('../img/checkers.png');
+  color: #FFF;
+  font-family: 'Roboto';
+}
+
+#sidebar {
+  width: 30%;
+  height: auto;
+  padding: 2%;
+  position: absolute;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#container {
+  margin-left: 34%;
+}
